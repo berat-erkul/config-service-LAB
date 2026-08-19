@@ -8,7 +8,7 @@ spring:
           username: ${CONFIG_GIT_USERNAME}
           password: ${CONFIG_GIT_PASSWORD}
     vault:
-      enabled: true
+      enabled: false
       fail-fast: false
       host: localhost
       port: 8200
